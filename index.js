@@ -12,10 +12,10 @@ fetchButton.addEventListener("click", () => {
         const profileCard = `
                     <div>
                         <img src="${data.avatar_url}" alt="${data.login}" width="100">
-                        <h2>${data.login}</h2>
-                        <p>Followers: ${data.followers}</p>
-                        <p>Following: ${data.following}</p>
-                        <p>Repos: ${data.public_repos}</p>
+                        <h2 class="test">${data.login}</h2>
+                        <p class="test">Followers: ${data.followers}</p>
+                        <p class="test">Following: ${data.following}</p>
+                        <p class="test">Repos: ${data.public_repos}</p>
                     </div>
                 `;
         profileDiv.innerHTML = profileCard;
